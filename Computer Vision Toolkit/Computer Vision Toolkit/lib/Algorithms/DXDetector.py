@@ -117,7 +117,7 @@ def DebrisDetect(img_path, Params):
 
 		dx_scores = cv2.cvtColor(heatmap, cv2.COLOR_BGR2GRAY)
 		stats = (np.count_nonzero(dx_scores) / dx_scores.size ) * 100.0
-
+		print(dx_scores.shape)
 		return dx_scores, t.get_time(), stats
 
 	# Otherwise, corner detection
@@ -261,7 +261,7 @@ def DebrisDetect(img_path, Params):
 
 			dx_scores = cv2.cvtColor(heatmap, cv2.COLOR_BGR2GRAY)
 			stats = (np.count_nonzero(dx_scores) / dx_scores.size ) * 100.0
-
+			print(dx_scores.shape)
 			return dx_scores, t.get_time(), stats
 
 		else:
@@ -269,7 +269,7 @@ def DebrisDetect(img_path, Params):
 
 			dx_scores = cv2.cvtColor(heatmap, cv2.COLOR_BGR2GRAY)
 			stats = (np.count_nonzero(dx_scores) / dx_scores.size ) * 100.0
-
+			print(dx_scores.shape)
 			return dx_scores, t.get_time(), stats
 
 	exit()

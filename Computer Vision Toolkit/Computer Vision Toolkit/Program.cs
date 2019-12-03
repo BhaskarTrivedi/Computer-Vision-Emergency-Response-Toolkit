@@ -56,6 +56,7 @@ namespace Computer_Vision_Toolkit
         [STAThread]
         static void Main()
         {
+            //MessageBox.Show("BHaskar tool");
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
             Application.Run(new MainForm());
