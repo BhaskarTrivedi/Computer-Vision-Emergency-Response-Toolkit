@@ -7,7 +7,7 @@ Release version can be found at: http://cver.hrail.crasar.org
 * Microsoft Visual Studio 2017 Installer Projects Extension
   * This can be installed by clicking ```Tools -> Extensions and Updates... -> Online``` then entering the name of the extension in the search box
   
-  ## Developer Note
+## Developer Note
 * Before Building missing person project in visual studio please verify yolov3.weights file is present at “Computer-Vision-Emergency-Response-Toolkit-CVERT-Competition-Master\Computer Vision Toolkit\Computer Vision Toolkit\lib\Algorithms” . If it is not present here please download it from https://pjreddie.com/media/files/yolov3.weights, and place it at given location.
 
 * Currently I am not authorize to upload LFS file even im fork branch and issue regarding this is open in github community.
