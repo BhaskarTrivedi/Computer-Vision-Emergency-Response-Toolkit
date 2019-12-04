@@ -57,5 +57,5 @@ Release version can be found at: http://cver.hrail.crasar.org
 * Tensorflow
   * pip install -v tensorflow
 * keras
-*  pip install -v keras
+  * pip install -v keras
 
