@@ -20,7 +20,7 @@ Release version can be found at: http://cver.hrail.crasar.org
   * This can be installed by clicking ```Tools -> Extensions and Updates... -> Online``` then entering the name of the extension in the search box
   
 ## Developer Note
-* Before Building missing person project in visual studio please verify yolov3.weights file is present at “Computer-Vision-Emergency-Response-Toolkit-CVERT-Competition-Master\Computer Vision Toolkit\Computer Vision Toolkit\lib\Algorithms” . If it is not present here please download it from https://pjreddie.com/media/files/yolov3.weights, and place it at given location.
+* Note: Before building the project in Visual Studio, please verify that the ‘yolov3.weights’ file is present in the ‘Computer-Vision-Emergency-Response-Toolkit-CVERT-Competition-Master\Computer Vision Toolkit\Computer Vision Toolkit\lib\Algorithms’ folder . If it is not present, it can be downloaded from https://pjreddie.com/media/files/yolov3.weights. 
 
 * Currently I am not able to commit large LFS file and issue regarding this already open in github community.
 * https://github.com/git-lfs/git-lfs/issues/1449
