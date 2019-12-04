@@ -22,7 +22,7 @@ Release version can be found at: http://cver.hrail.crasar.org
 ## Developer Note
 * Before Building missing person project in visual studio please verify yolov3.weights file is present at “Computer-Vision-Emergency-Response-Toolkit-CVERT-Competition-Master\Computer Vision Toolkit\Computer Vision Toolkit\lib\Algorithms” . If it is not present here please download it from https://pjreddie.com/media/files/yolov3.weights, and place it at given location.
 
-* Currently I am not able to large LFS file and issue regarding this already open in github community.
+* Currently I am not able to commit large LFS file and issue regarding this already open in github community.
 * https://github.com/git-lfs/git-lfs/issues/1449
 * https://github.com/Fergex/Platformer445/issues/2
   
